@@ -1,0 +1,7 @@
+turbo-palmeira/
+├── src/              # "Source" - Onde fica todo o seu código principal
+│   └── main.ext      # Seu arquivo principal (pode ser .js, .py, .html)
+├── assets/           # Imagens, ícones e sons do projeto
+├── docs/             # Anotações ou manuais (opcional)
+├── .gitignore        # Arquivo que diz ao Git o que NÃO enviar para a nuvem
+└── README.md         # A "capa" do seu projeto com a descrição
