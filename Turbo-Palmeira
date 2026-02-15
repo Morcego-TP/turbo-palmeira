@@ -5,3 +5,36 @@ turbo-palmeira/
 ├── docs/             # Anotações ou manuais (opcional)
 ├── .gitignore        # Arquivo que diz ao Git o que NÃO enviar para a nuvem
 └── README.md         # A "capa" do seu projeto com a descrição
+turbo-palmeira/
+├── src/
+│   ├── __init__.py
+│   ├── main.py                 # Ponto de entrada da API
+│   ├── config/
+│   │   ├── __init__.py
+│   │   └── settings.py         # Configurações (DB, variáveis de ambiente)
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── user.py             # Modelos do banco de dados (SQLAlchemy, etc)
+│   ├── routes/
+│   │   ├── __init__.py
+│   │   ├── users.py            # Rotas de usuários
+│   │   └── auth.py             # Rotas de autenticação
+│   ├── services/
+│   │   ├── __init__.py
+│   │   └── user_service.py     # Lógica de negócio
+│   ├── database/
+│   │   ├── __init__.py
+│   │   └── db.py               # Conexão com BD
+│   └── utils/
+│       ├── __init__.py
+│       └── helpers.py          # Funções auxiliares
+├── tests/
+│   ├── __init__.py
+│   ├── test_users.py           # Testes das rotas
+│   └── test_services.py        # Testes de serviços
+├── migrations/                 # Alembic (versionamento do BD)
+├── .env.example                # Variáveis de ambiente (template)
+├── .gitignore
+├── README.md
+├── requirements.txt            # Dependências Python
+└── docker-compose.yml          # (Opcional) Para banco de dados
